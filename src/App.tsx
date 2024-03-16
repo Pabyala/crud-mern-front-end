@@ -37,7 +37,7 @@ function App() {
       }
     }
     getUser()
-  }, [updateUI])
+  }, [updateUI, baseUrl])
 
   const openPopup = () => {
     openChange(true)
